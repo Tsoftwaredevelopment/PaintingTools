@@ -1,0 +1,18 @@
+数据库内容：
+Create database drawT;
+
+Use drawT;
+
+用户实体
+create table user(
+id  int(10),
+username varchar(15) primary key,
+password varchar(15),
+gender  varchar(6),
+email   varchar(20),
+age   varchar(3),
+tel   varchar(11)
+);
+
+
+insert into user (id,username,password) values (0,”admin”,”admin”);
